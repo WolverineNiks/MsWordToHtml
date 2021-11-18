@@ -1,12 +1,11 @@
 import ftfy
 import codecs
 
-fileName = ["Diesel.html","Marni.html","Margiela.html","Staff.html"]
-
-
+fileName = ["Marni.html"]
+filesPath = "C:\\Users\\nikhi\\Documents\\GitHub\\MsWordToHtml\\HtmlFiles\\"
 for name in fileName:
 
-    f = codecs.open(name, "r","utf-8")
+    f = codecs.open(filesPath+name, "r","utf-8")
     #print(ftfy.fix_text(f.read(18745)))
 
 
